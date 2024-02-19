@@ -2,43 +2,140 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Portfolio</title>
-    
+    <title>Portfolio ver 1.0</title>
+
+<link>
+
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav>
-        <img src="my_image.jpg" alt="My Image">
-        <h1>My Name</h1>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        
-    </nav>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate developer...</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at example@example.com</p>
-    </section>
-    <footer>
-        <p>&copy; 2022 My Portfolio</p>
-    </footer>
+
+ <main>
+    <aside class="Sidebar  active" data-sidebar>
+        <div class="Sidebar__info">
+            <figure class="box">
+                <img src="WhatsApp Image 2024-02-19 at 11.56.35 PM.jpeg" alt="Avinash Chowdhury" width="80">
+            </figure>
+            
+           <div class="content">
+              <h1 class="content__name">Avinash Chowdhury</h1>
+              <p class="content__profession">Frontend Developer</p>
+           </div>
+
+           <button class="info__button" data-sidebar-btn>
+             <span>Contacs</span>
+
+             <ion-icon name="chevron_down"></ion-icon>
+           </button>
+        </div>
+
+        <div class="sidebar_info_more">
+           
+                <div class="separater">
+                
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <div class="icon_box">
+                          <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact_info">
+                            <p class="contact_title">Email</p>
+
+                            <a href="mailto:avinashchowdhury2002@gmail.com">avinashchowdhury2002@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact__item">
+                        <div class="icon_box">
+                          <ion-icon name="call-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact_info">
+                            <p class="contact_title">Phone</p>
+
+                            <a href="tel:+918420898357" class="contact_link">+91 8420898357</a>
+                        </div>
+                    </li>
+
+                    <li class="contact__item">
+                        <div class="icon_box">
+                          <ion-icon name="calander-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact_info">
+                            <p class="contact_title">Email</p>
+
+                            <time datetime="2002-03-21">20th Mar 2002</time>
+                        </div>
+                    </li>
+
+                    <li class="contact__item">
+                        <div class="icon_box">
+                          <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact_info">
+                            <p class="contact_title">Location</p>
+
+                            <address>Chandannagar, Hooghly, West Bengal, India</address>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div class="separator"></div>
+                
+                <ul class="social_list">
+                   <li class="social_item">
+                     <a herf="#" class="Links">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                     </a>
+                   </li> 
+
+                   <li class="social_item">
+                    <a herf="#" class="Links">
+                       <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li class="social_item">
+                    <a herf="#" class="Links">
+                       <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li class="social_item">
+                    <a herf="#" class="Links">
+                       <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+
+
+                </ul>
+
+
+            </div>
+        </div>
+    </aside>
+ </main>
+
+    
+
+
+<script src="main.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
 </body>
 </html>
-
