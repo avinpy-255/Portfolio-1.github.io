@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibles" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio ver 1.0</title>
 
@@ -12,33 +13,35 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
  <main>
-    <aside class="Sidebar  active" data-sidebar>
-        <div class="Sidebar__info">
+    <aside class="sidebar  active" data-sidebar>
+        
+        <div class="sidebar_info">
             <figure class="box">
                 <img src="WhatsApp Image 2024-02-19 at 11.56.35 PM.jpeg" alt="Avinash Chowdhury" width="80">
             </figure>
             
-           <div class="content">
-              <h1 class="content__name">Avinash Chowdhury</h1>
-              <p class="content__profession">Frontend Developer</p>
+           <div class="info-content">
+              <h1 class="name" title="Avinash Chowdhury">Avinash Chowdhury</h1>
+              
+              <p class="profession">Frontend Developer</p>
            </div>
 
-           <button class="info__button" data-sidebar-btn>
-             <span>Contacs</span>
+           <button class="info_button" data-sidebar-btn>
+             <span>Show Contacs</span>
 
-             <ion-icon name="chevron_down"></ion-icon>
+             <ion-icon name="chevron-down"></ion-icon>
            </button>
         </div>
 
         <div class="sidebar_info_more">
            
-                <div class="separater">
+                <div class="separater"></div>
                 
                 <ul class="contact__list">
                     <li class="contact__item">
@@ -49,7 +52,7 @@
                         <div class="contact_info">
                             <p class="contact_title">Email</p>
 
-                            <a href="mailto:avinashchowdhury2002@gmail.com">avinashchowdhury2002@gmail.com</a>
+                            <a href="mailto:avinashchowdhury2002@gmail.com"  class="contact_link">avinashchowdhury2002@gmail.com</a>
                         </div>
                     </li>
 
@@ -67,11 +70,11 @@
 
                     <li class="contact__item">
                         <div class="icon_box">
-                          <ion-icon name="calander-outline"></ion-icon>
+                          <ion-icon name="calendar-outline"></ion-icon>
                         </div>
 
                         <div class="contact_info">
-                            <p class="contact_title">Email</p>
+                            <p class="contact_title">Birthday</p>
 
                             <time datetime="2002-03-21">20th Mar 2002</time>
                         </div>
@@ -90,7 +93,7 @@
                     </li>
                 </ul>
                 
-                <div class="separator"></div>
+                <div class="separater"></div>
                 
                 <ul class="social_list">
                    <li class="social_item">
@@ -121,7 +124,7 @@
                 </ul>
 
 
-            </div>
+            
         </div>
     </aside>
  </main>
