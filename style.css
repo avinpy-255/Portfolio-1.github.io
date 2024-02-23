@@ -11,8 +11,8 @@
       ), hsl(240, 2%, 13%);
       --bg-gradient-yellow-1: linear-gradient(
         to bottom right, 
-        hsl(45, 100%, 71%) 0%, 
-        hsla(36, 100%, 69%, 0) 50%
+        hsl(45, 6%, 87%) 0%, 
+        hsla(34, 16%, 91%, 0) 50%
       );
       --bg-gradient-yellow-2: linear-gradient(
         135deg, 
@@ -26,8 +26,8 @@
       );
       --text-gradient-yellow: linear-gradient(
         to right, 
-        hsl(45, 100%, 72%), 
-        hsl(35, 100%, 68%)
+        hsl(48, 5%, 80%), 
+        hsl(30, 9%, 87%)
     );
 
 
@@ -40,9 +40,9 @@
   --Creemy: hsla(0, 8%, 95%, 0.908);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
+  --orange-yellow-crayola: hsl(45, 6%, 72%);
+  --vegas-gold: hsl(48, 12%, 92%);
+  --light-gray: hsl(0, 5%, 75%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
@@ -300,6 +300,60 @@ main {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
+
+.contact_info address {font-style: normal;}
+
+.social_list{
+  display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 15px;
+ padding-bottom: 4px;
+ padding-left: 7px;
+}
+
+.social_item .Links {
+  color: var(--light-gray-70);
+  font-size: 18px;
+}
+
+.social_item .Links:hover{
+  color: var(--light-gray);
+}
+
+
+.navbar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: hsla(240, 1%, 17%, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--jet);
+  border-radius: 12px 12px 0 0;
+  box-shadow: var(--shadow-2);
+  z-index: 5;
+}
+
+.navbar_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navbar_link {
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  padding: 10px 7px;
+  transition: color var(--transition-1);
+}
+
+.navbar_link:hover,
+.navbar_link:focus {color: var(--jet); }
+
+.navbar_link.active {color: var(--onyx);}
 
 
 
