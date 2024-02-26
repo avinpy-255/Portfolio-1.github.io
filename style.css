@@ -170,6 +170,8 @@
  --ionicon-stroke-width: 35px;
 }
 
+article {display: none;}
+
 article.active {
   display: block;
   animation: fade 0.5s ease backwards;
@@ -204,7 +206,7 @@ article.active {
   padding-bottom: 7px;
 }
 
-.article_title::after{
+.article_title::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -459,6 +461,8 @@ main {
   font-weight: var(--fe-3);
   line-height: 1.6;
 }
+
+
 
 
 
