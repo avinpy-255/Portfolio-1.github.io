@@ -462,8 +462,13 @@ main {
   line-height: 1.6;
 }
 
-
-
+/*resume*/
+/**technology**/
+.tech_text{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
 
 
