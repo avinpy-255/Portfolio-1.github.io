@@ -218,6 +218,15 @@ article.active {
 }
 
 
+
+
+/*profile pic*/
+.profile_pic{
+  border-radius: 15px;
+}
+
+
+
 /*main*/
 
 main {
