@@ -33,16 +33,16 @@
 
      /* solid */
 
-  --jet: hsl(0, 22%, 93%);
+  --jet: hsl(228, 66%, 68%);
   --onyx: hsl(240, 67%, 62%);
   --eerie-black-1: #cfc7c7;
   --eerie-black-2: #132558;
   --Creemy: #0c0d44;
-  --white-1:#f0ebeb;
+  --white-1:#dbdde7;
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 6%, 72%);
-  --vegas-gold: hsl(229, 58%, 15%);
-  --light-gray: #ede6e6;
+  --vegas-gold: hsl(220, 68%, 80%);
+  --light-gray: #6c68d7;
   --light-gray-70: hsla(228, 71%, 62%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
